@@ -24,7 +24,7 @@ spec:
       status: "True"
   clusterSelector:
     matchLabels:
-      environment: dev
+      clusterID: 7713239a-adc1-4fd3-8a07-9044cf9ef206
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
