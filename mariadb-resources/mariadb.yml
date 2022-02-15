@@ -6,6 +6,9 @@ metadata:
     app: mariadb
     type: database
 spec:
+  selector:
+    matchLabels:
+      app: mariadb  
   replicas: 1
   template:
     metadata:
