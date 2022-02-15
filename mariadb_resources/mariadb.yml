@@ -28,3 +28,5 @@ spec:
                 secretKeyRef:
                   name: mariadb
                   key: MYSQL_ROOT_PASSWORD
+      imagePullSecrets:
+        - name: docker-io-smc
