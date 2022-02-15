@@ -12,6 +12,7 @@ metadata:
 spec:
   type: Git
   pathname: https://github.com/cunlifs/rhacm_app_demo.git
+  insecureSkipVerify: true
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
@@ -35,6 +36,7 @@ metadata:
     app: mariadb-app
   annotations:
     apps.open-cluster-management.io/github-path: mariadb_resources
+    apps.open-cluster-management.io/git-branch: main
 spec:
   channel: mariadb/mariadb-app
   placement:
