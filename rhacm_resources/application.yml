@@ -11,7 +11,7 @@ metadata:
   namespace: mariadb
 spec:
   type: Git
-  pathname: https://github.com/cunlifs/RHACM_App_Demo.git
+  pathname: https://github.com/cunlifs/rhacm_app_demo.git
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
