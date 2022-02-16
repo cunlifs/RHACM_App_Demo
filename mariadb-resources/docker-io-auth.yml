@@ -2,6 +2,7 @@ kind: Secret
 apiVersion: v1
 metadata:
   name: docker-io-smc
+  namespace: mariadb
 type: kubernetes.io/dockerconfigjson
 data:
   .dockerconfigjson: >-
