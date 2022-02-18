@@ -1,8 +1,0 @@
-kind: Secret
-apiVersion: v1
-metadata:
-  name: docker-io-smc
-type: kubernetes.io/dockerconfigjson
-data:
-  .dockerconfigjson: >-
-    eyJhdXRocyI6eyJkb2NrZXIuaW8iOnsidXNlcm5hbWUiOiJjdW5saWZzIiwicGFzc3dvcmQiOiJzdGF5YzAwbDEiLCJhdXRoIjoiWTNWdWJHbG1jenB6ZEdGNVl6QXdiREU9IiwiZW1haWwiOiIifX19
